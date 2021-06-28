@@ -1,0 +1,31 @@
+@import url(./header-background.css);
+@import url(./side-navegation.css);
+@import url(./main.css);
+:root {
+  --color-1: #212121;
+  --color-2: #808080;
+  --color-3: #424242;
+  --color-4: #212429;
+  --color-5: #FEC62E;
+  --color-6: #ffff;
+  --color-7: #A5A3A5;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  background: var(--colorWhite);
+}
+
+@media screen and (min-width:900px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width:1420px) {
+  :root {
+    font-size: 16px;
+  }
+}

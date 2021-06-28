@@ -1,0 +1,81 @@
+.wrapperMain .content2 {
+  counter-reset: countNav;
+  margin-block-end: 7.625rem;
+}
+
+.wrapperMain .content2 h2 {
+  color: var(--color-1);
+  font-size: 2rem;
+  margin: 0 0 2.5rem 0;
+}
+
+.wrapperMain .content2 h3 {
+  margin: 1rem 0 0.25rem 0;
+  color: var(--color-3);
+  font-size: 1.5rem;
+  display: inline-block;
+  box-shadow: 0 0.25rem var(--color-3);
+}
+
+.wrapperMain .content2 h3::before {
+  content: counters(countNav, "") ". ";
+  counter-increment: countNav;
+}
+
+.wrapperMain .content2 pre {
+  background: var(--color-5);
+  color: var(--color-1);
+  margin: 0 auto 2.5rem auto;
+  padding: 2.5rem;
+  font-size: 1rem;
+  overflow-x: scroll;
+}
+
+.wrapperMain .content2 pre::-webkit-scrollbar {
+  inline-size: 0;
+}
+
+.wrapperMain .content2 p {
+  margin: 1rem 0 2.5rem 0;
+  color: var(--color-3);
+}
+
+.wrapperMain .content2-2 p {
+  margin: 1rem 0 1rem 0;
+}
+
+.wrapperMain .content2-2 p:last-child {
+  margin: 1rem 0 2.5rem 0;
+}
+
+.wrapperMain .content2 img {
+  inline-size: 100%;
+  block-size: auto;
+  margin: 0 0 2.5rem 0;
+}
+
+/*-------- NEMIUM B ----------*/
+
+.wrapperMain .content2 .h3Nemium-b {
+  box-shadow: 0 0.25rem var(--color-4);
+}
+
+.wrapperMain .content2 .pNemium-b {
+  color: var(--color-7);
+}
+
+.content2-1 .nemium-b {
+  border-radius: 8px;
+}
+
+/*-------- NEMIUM C ----------*/
+
+.wrapperMain .content2-1 .nemium-c {
+  border-radius: 8px;
+  background: var(--color-7);
+  color: var(--color-1);
+}
+
+.wrapperMain .content2 .h3Nemium-c {
+  box-shadow: 0 0.25rem var(--color-6);
+}

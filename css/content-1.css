@@ -1,0 +1,57 @@
+.wrapperMain .content1 {
+  margin: 4rem 0 4rem 0;
+  color: var(--color-3);
+  counter-reset: countNav;
+}
+
+.wrapperMain .content1 img {
+  display: block;
+}
+
+.wrapperMain .content1 h2 {
+  color: var(--color-1);
+}
+
+.wrapperMain .content1 h3 {
+  margin: 1rem 0 0.25rem 0;
+  display: inline-block;
+  box-shadow: 0 0.25rem var(--color-3);
+}
+
+.wrapperMain .content1 h3::before {
+  content: counters(countNav, "") ". ";
+  counter-increment: countNav;
+}
+
+.wrapperMain .content1 p {
+  margin: 1rem 0 2.5rem 0;
+}
+
+.phrase {
+  box-shadow: -0.25rem 0 var(--color-1);
+}
+
+.phrase blockquote {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 1rem;
+}
+
+.phrase cite {
+  margin: 0 0 0 1rem;
+}
+
+/*-------- NEMIUM B ----------*/
+
+.wrapperMain .content1 .h3Nemium-b {
+  box-shadow: 0 0.25rem var(--color-4);
+}
+
+.wrapperMain .content1 .pNemium-b {
+  color: var(--color-7);
+}
+
+/*-------- NEMIUM C ----------*/
+
+.wrapperMain .content1 .h3Nemium-c {
+  box-shadow: 0 0.25rem var(--color-6);
+}

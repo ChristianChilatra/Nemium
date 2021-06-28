@@ -1,0 +1,37 @@
+@import url(./content-1.css);
+@import url(./content-2.css);
+@import url(./content-3.css);
+@import url(./footer.css);
+.contentMain {
+  position: relative;
+  inset-inline-end: -20%;
+  inline-size: 71.5098%;
+  padding: 4rem 0 0 0;
+}
+
+.wrapperMain h1 {
+  font-size: 3.75rem;
+  margin: 0;
+  color: var(--color-1);
+}
+
+.wrapperMain p {
+  margin-block-end: 4rem;
+  color: var(--color-1);
+}
+
+.wrapperMain hr {
+  margin: 0;
+}
+
+@media screen and (max-width:940px) {
+  .contentMain {
+    position: static;
+    margin: auto;
+    padding: 0 1rem 0 1rem;
+    inline-size: auto;
+  }
+  .wrapperMain h1 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,180 @@
+.wrapperMain .content3 {
+  margin-block-end: 7.0625rem;
+}
+
+.wrapperMain .content3 h2 {
+  color: var(--color-1);
+  font-size: 2rem;
+  margin: 0 0 2.5rem 0;
+}
+
+.wrapperMain .content3 h3 {
+  margin: 1rem 0 1rem 0;
+  color: var(--color-3);
+  font-size: 1.5rem;
+}
+
+.wrapperMain .content3 p {
+  margin: 1rem 0 1rem 0;
+  font-size: 1rem;
+  color: var(--color-3);
+}
+
+.wrapperMain .content3 ul {
+  padding-inline-start: 1rem;
+}
+
+.wrapperMain .content3 ol {
+  list-style: decimal;
+  padding-inline-start: 1rem;
+}
+
+.wrapperMain .content3 ol, ul {
+  color: var(--color-3);
+  margin: 1rem 0 2.5rem;
+  font-size: 1rem;
+}
+
+.wrapperMain .content3 ul li {
+  margin: 1rem 0;
+}
+
+.wrapperMain .content3 .overfollImg {
+  inline-size: 100%;
+  block-size: 29rem;
+  margin: 1rem 0 0 0;
+  overflow: auto;
+  padding: 0;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.wrapperMain .content3 .overfollImg::-webkit-scrollbar {
+  visibility: visible;
+  inline-size: 0;
+  block-size: 0;
+}
+
+.wrapperMain .content3 .overfollImg h1 {
+  display: inline-block;
+}
+
+.wrapperMain .content3 .buttonScroll {
+  inline-size: 1rem;
+  block-size: 1rem;
+  border-radius: 50%;
+  background: var(--color-2);
+  border: 0;
+  cursor: pointer;
+  margin: 1rem auto 2.5rem auto;
+  position: relative;
+  inset-inline-start: 50%;
+}
+
+.wrapperMain .content3 .buttonScroll:hover {
+  background: var(--color-4);
+}
+
+.wrapperMain .content3 .input {
+  display: inline-block;
+  position: relative;
+}
+
+.content3 input[type="text"], .content3 input[type="email"] {
+  block-size: 1.5rem;
+  inline-size: 15.375rem;
+  border-radius: 5.625rem;
+  outline: none;
+  border: 1px solid var(--color-1);
+  cursor: pointer;
+  margin-inline-end: 1rem;
+  padding: 0.75rem 1rem;
+}
+
+.content3 input[type="submit"] {
+  position: relative;
+  inset-inline-start: -8rem;
+  block-size: 3.2rem;
+  inline-size: 7.4375rem;
+  background: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5.625rem;
+  outline: none;
+  border: 0;
+}
+
+/* ------------------------------------------------ */
+
+@media screen and (max-width:940px) {
+  .wrapperMain .content3 .input {
+    display: block;
+    inline-size: 20.5rem;
+    margin: auto;
+  }
+  .content3 input[type="text"], .content3 input[type="email"] {
+    margin: 0 auto 1rem 0;
+    inline-size: 18.5rem;
+  }
+  .content3 input[type="submit"] {
+    position: absolute;
+    inset-inline-start: 66%;
+    inset-block-start: 0;
+    inline-size: 7.23875rem;
+  }
+  /*-------- NEMIUM B ----------*/
+  .content3 .inputNemium-b input[type="text"],
+  .content3 .inputNemium-b input[type="email"] {
+    margin: 0 auto 1rem 0;
+    inline-size: 18.3rem;
+  }
+  .content3 .inputNemium-b input[type="submit"] {
+    inline-size: 100%;
+    inset-block-start: 4rem;
+  }
+}
+
+/*-------- NEMIUM B ----------*/
+
+.wrapperMain .content3 .h3Nemium-b {
+  box-shadow: 0 0.25rem var(--color-4);
+}
+
+.wrapperMain .content3 .pNemium-b {
+  color: var(--color-7);
+}
+
+.wrapperMain .content3 .liNemium-b {
+  color: var(--color-7);
+}
+
+.wrapperMain .content3 .liNemium-b::marker {
+  color: var(--colorBack-r1);
+}
+
+.wrapperMain .content3 .inputNemium-b {
+  display: block;
+  position: relative;
+}
+
+.inputNemium-b input[type="text"], .inputNemium-b input[type="email"] {
+  background: transparent;
+  inline-size: 95.5%;
+  border-radius: 0.5rem;
+  margin-block-end: 1.5rem;
+}
+
+.inputNemium-b input::-webkit-input-placeholder {
+  color: var(--color-1);
+}
+
+.inputNemium-b input[type="submit"] {
+  background: var(--color-8);
+  inline-size: 100%;
+  inset-inline-start: 0;
+  inset-block-start: 0rem;
+  border-radius: 0.5rem;
+}

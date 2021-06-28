@@ -1,0 +1,28 @@
+  .backgroundHeader {
+    block-size: 6rem;
+    background-image: url(../img/img-background-header.png);
+    background-size: 10%;
+    background-repeat: repeat;
+  }
+
+  /*-------- NEMIUM B ----------*/
+
+  .backgroundHeader-b {
+    block-size: 21.875rem;
+    background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+  }
+
+  /*-------- NEMIUM C ----------*/
+
+  .backgroundHeader-c {
+    block-size: 0;
+  }
+
+  @media screen and (min-width:940px) {
+    .backgroundHeader {
+      block-size: 21.875rem;
+      background-image: url(../img/img-background-header.png);
+      background-size: 10%;
+      background-repeat: repeat;
+    }
+  }

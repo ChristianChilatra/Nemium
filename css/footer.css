@@ -1,0 +1,44 @@
+footer {
+  block-size: 10.875rem;
+  background: var(--color-1);
+  color: var(--color-6);
+  position: absolute;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+}
+
+footer .endpage {
+  inline-size: 22.875rem;
+  block-size: 4.875rem;
+  margin: auto;
+}
+
+footer .endpage img {
+  margin: 0 0.59rem 0 0;
+}
+
+footer .endpage p {
+  font-size: 2rem;
+  margin: 3rem 0 1.1875rem 0;
+}
+
+footer .iconRed-social {
+  inline-size: 6.125rem;
+  block-size: 1.125rem;
+  margin: auto;
+}
+
+@media screen and (max-width:940px) {
+  footer {
+    block-size: 10.875rem;
+  }
+  footer .endpage {
+    inline-size: 17.1875rem;
+  }
+  footer .endpage p {
+    font-size: 1.5rem;
+  }
+  footer .iconRed-social img {
+    margin: 0 0.6rem 0 0;
+  }
+}

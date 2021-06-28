@@ -1,0 +1,121 @@
+  .sideNav {
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block-start: 21.875rem;
+    inset-block-end: 0;
+    inline-size: 20%;
+  }
+
+  .wrapperNav {
+    margin: 4rem auto 0 auto;
+    font-weight: 500;
+    color: var(--color-1);
+    inline-size: 11.75rem;
+    position: sticky;
+    inset-inline-start: 0;
+    inset-block-start: 5rem;
+    inset-block-end: 0;
+  }
+
+  .wrapperNav h3 {
+    display: inline;
+    margin: 0 0 1rem 0;
+    font-size: .875rem;
+  }
+
+  .wrapperNav ul li {
+    inline-size: 11.75rem;
+    block-size: 1.25rem;
+    padding: 0.625rem 0 0.625rem 0.625rem;
+    margin: 0;
+    user-select: none;
+  }
+
+  .wrapperNav ul li:hover {
+    background: black;
+    border-radius: 0.25rem;
+    color: white;
+  }
+
+  .wrapperNav ul, ol {
+    padding: 0;
+    list-style: none;
+    font-size: .875rem;
+  }
+
+  .wrapperNav li {
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    cursor: pointer;
+  }
+
+  .wrapperNav details {
+    cursor: pointer;
+    user-select: none;
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  .wrapperNav details ol {
+    counter-reset: section;
+    list-style-type: none;
+  }
+
+  .wrapperNav details li::before {
+    content: counters(section, "") ". ";
+    counter-increment: section;
+  }
+
+  .wrapperNav details summary h3 {
+    font-weight: 700;
+  }
+
+  .wrapperNav a {
+    text-decoration: none;
+    color: var(--color-1);
+  }
+
+  .wrapperNav a:hover {
+    color: var(--color-1);
+  }
+
+  /*-------- NEMIUM C ----------*/
+
+  .sideNav-c .conteiner2 .conteinerDetails {
+    box-shadow: -0.25rem 0 var(--color-2);
+    padding-inline-start: 1rem;
+  }
+
+  .sideNav-c .wrapperNav {
+    margin: 0 auto 4rem 0;
+  }
+
+  /* ------------------------------------------------ */
+
+  @media screen and (max-width:940px) {
+    .sideNav {
+      position: static;
+      margin: 1rem auto 2.5rem auto;
+      inline-size: auto;
+      padding: 0 1rem 0 1rem;
+    }
+    .wrapperNav {
+      margin: auto;
+      inline-size: 100%;
+    }
+    .wrapperNav .conteiner1 {
+      margin: auto;
+    }
+    .wrapperNav .conteiner2 {
+      display: none;
+    }
+    .wrapperNav ul li {
+      inline-size: auto;
+    }
+    .wrapperNav ul {
+      margin: 1rem 0 0 0;
+    }
+    /*-------- NEMIUM C ----------*/
+    .sideNav-c .conteiner2{
+      display: block;
+      margin-block-start: 3rem;
+    }
+  }
