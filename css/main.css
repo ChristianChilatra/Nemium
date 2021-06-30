@@ -24,10 +24,19 @@
   margin: 0;
 }
 
+/*-------- NEMIUM D ----------*/
+
+.contentMain-d {
+  position: relative;
+  inset-inline-end: -5%;
+  inline-size: 71.5098%;
+  padding: 4rem 0 0 0;
+}
+
 @media screen and (max-width:940px) {
   .contentMain {
     position: static;
-    margin: auto;
+    margin: 2.5rem auto auto auto;
     padding: 0 1rem 0 1rem;
     inline-size: auto;
   }

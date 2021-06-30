@@ -79,14 +79,45 @@
 
   /*-------- NEMIUM C ----------*/
 
-  .sideNav-c .conteiner2 .conteinerDetails {
+  .sideNav-c .conteiner2 .conteinerDetails-c {
     box-shadow: -0.25rem 0 var(--color-2);
     padding-inline-start: 1rem;
   }
 
   .sideNav-c .wrapperNav {
+    inline-size: 100%;
+  }
+
+  .sideNav-c .conteiner2 .conteinerDetails-c details ol li {
+    margin-block-end: 1rem;
+  }
+
+  .sideNav-c .wrapperNav {
     margin: 0 auto 4rem 0;
   }
+
+  /*-------- NEMIUM D ----------*/
+
+  .sideNav-d {
+    position: absolute;
+    inset-inline-end: 0;
+    inset-block-start: 21.875rem;
+    inset-block-end: 0;
+    inline-size: 20%;
+  }
+  .sideNav-d .wrapperNav details ol a li{
+    inline-size: 11.75rem;
+    block-size: 1.25rem;
+    padding: 0.625rem 0 0.625rem 0.625rem;
+    margin: 0;
+    user-select: none;
+  }
+  .sideNav-d .wrapperNav details ol a li:hover {
+    background: var(--color-8);
+    color: var(--color-6);
+
+  }
+
 
   /* ------------------------------------------------ */
 
@@ -114,8 +145,11 @@
       margin: 1rem 0 0 0;
     }
     /*-------- NEMIUM C ----------*/
-    .sideNav-c .conteiner2{
+    .sideNav-c .conteiner2 {
       display: block;
       margin-block-start: 3rem;
+    }
+    .sideNav-c+hr {
+      display: none;
     }
   }

@@ -55,3 +55,36 @@
 .wrapperMain .content1 .h3Nemium-c {
   box-shadow: 0 0.25rem var(--color-6);
 }
+
+/*-------- NEMIUM D ----------*/
+
+.contentMain-d .wrapperMain .content1 h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-1)
+}
+
+.contentMain-d .wrapperMain .content1 img {
+  margin: auto;
+}
+
+.contentMain-d .wrapperMain .content1 h3 {
+  display: block;
+  text-align: center;
+  box-shadow: none;
+  font-size: 1.5rem;
+  color: var(--color-1)
+}
+.contentMain-d .wrapperMain .content1 p{
+  text-align: center;
+}
+.contentMain-d .wrapperMain .content1 p b{
+  color: var(--color-9);
+  font-weight: lighter;
+}
+
+.contentMain-d .wrapperMain .content1 .phrase {
+  margin-inline-start: 30%;
+  box-shadow: -0.25rem 0 var(--color-8);
+  font-size: 1.5rem;
+}

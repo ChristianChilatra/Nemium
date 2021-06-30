@@ -28,6 +28,10 @@ footer .iconRed-social {
   margin: auto;
 }
 
+.footerNemium-d {
+  background: #000000;
+}
+
 @media screen and (max-width:940px) {
   footer {
     block-size: 10.875rem;
@@ -40,5 +44,13 @@ footer .iconRed-social {
   }
   footer .iconRed-social img {
     margin: 0 0.6rem 0 0;
+  }
+  /*-------- NEMIUM B ----------*/
+  .footerNemium-b {
+    display: none;
+  }
+  /*-------- NEMIUM D ----------*/
+  .footerNemium-d {
+    background: #000000;
   }
 }

@@ -79,3 +79,30 @@
 .wrapperMain .content2 .h3Nemium-c {
   box-shadow: 0 0.25rem var(--color-6);
 }
+
+/*-------- NEMIUM D ----------*/
+
+.contentMain-d .wrapperMain .content2 h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-1)
+}
+
+.contentMain-d .wrapperMain .content2 h3 {
+  display: block;
+  text-align: center;
+  box-shadow: none;
+  font-size: 1.5rem;
+  color: var(--color-1)
+}
+
+.contentMain-d .wrapperMain .content1 p {
+  text-align: center;
+}
+
+.contentMain-d .wrapperMain .content2 pre {
+  background: none;
+  border-radius: 0.5rem;
+  border: 8px solid var(--color-8);
+  box-shadow: -10px 10px 0px var(--color-10);
+}

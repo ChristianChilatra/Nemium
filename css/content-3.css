@@ -1,45 +1,45 @@
-.wrapperMain .content3 {
+.content3 {
   margin-block-end: 7.0625rem;
 }
 
-.wrapperMain .content3 h2 {
+.content3 h2 {
   color: var(--color-1);
   font-size: 2rem;
   margin: 0 0 2.5rem 0;
 }
 
-.wrapperMain .content3 h3 {
+.content3 h3 {
   margin: 1rem 0 1rem 0;
   color: var(--color-3);
   font-size: 1.5rem;
 }
 
-.wrapperMain .content3 p {
+.content3 p {
   margin: 1rem 0 1rem 0;
   font-size: 1rem;
   color: var(--color-3);
 }
 
-.wrapperMain .content3 ul {
+.content3 ul {
   padding-inline-start: 1rem;
 }
 
-.wrapperMain .content3 ol {
+.content3 ol {
   list-style: decimal;
   padding-inline-start: 1rem;
 }
 
-.wrapperMain .content3 ol, ul {
+.content3 ol, ul {
   color: var(--color-3);
   margin: 1rem 0 2.5rem;
   font-size: 1rem;
 }
 
-.wrapperMain .content3 ul li {
+.content3 ul li {
   margin: 1rem 0;
 }
 
-.wrapperMain .content3 .overfollImg {
+.content3 .overfollImg {
   inline-size: 100%;
   block-size: 29rem;
   margin: 1rem 0 0 0;
@@ -49,17 +49,17 @@
   white-space: nowrap;
 }
 
-.wrapperMain .content3 .overfollImg::-webkit-scrollbar {
+.content3 .overfollImg::-webkit-scrollbar {
   visibility: visible;
   inline-size: 0;
   block-size: 0;
 }
 
-.wrapperMain .content3 .overfollImg h1 {
+.content3 .overfollImg h1 {
   display: inline-block;
 }
 
-.wrapperMain .content3 .buttonScroll {
+.content3 .buttonScroll {
   inline-size: 1rem;
   block-size: 1rem;
   border-radius: 50%;
@@ -71,110 +71,132 @@
   inset-inline-start: 50%;
 }
 
-.wrapperMain .content3 .buttonScroll:hover {
+.content3 .buttonScroll:hover {
   background: var(--color-4);
 }
 
-.wrapperMain .content3 .input {
-  display: inline-block;
-  position: relative;
+.content3 .formSubscription {
+  inline-size: 100%;
+  block-size: auto;
 }
 
-.content3 input[type="text"], .content3 input[type="email"] {
-  block-size: 1.5rem;
+.content3 .formSubscription input[type="text"], input[type="email"] {
   inline-size: 15.375rem;
+  block-size: 1rem;
+  border: 1px solid var(--color-3);
+  padding: 1rem;
   border-radius: 5.625rem;
-  outline: none;
-  border: 1px solid var(--color-1);
   cursor: pointer;
   margin-inline-end: 1rem;
-  padding: 0.75rem 1rem;
 }
 
-.content3 input[type="submit"] {
-  position: relative;
-  inset-inline-start: -8rem;
-  block-size: 3.2rem;
-  inline-size: 7.4375rem;
+.content3 .formSubscription input[type="submit"] {
   background: black;
-  color: white;
-  font-size: 1rem;
-  font-weight: 500;
-  outline: none;
-  cursor: pointer;
+  color: var(--color-6);
+  border: none;
+  inline-size: 7.4375rem;
+  block-size: 3.125rem;
   border-radius: 5.625rem;
+  position: relative;
+  inset-inline-start: -7.6rem;
+  cursor: pointer;
+}
+
+.content3 .formSubscription input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
+  color: var(--color-1);
+  font-size: 1rem;
+}
+
+/*-------- NEMIUM B ----------*/
+
+.content3 .formSubscription-b input[type="text"], .content3 .formSubscription-b input[type="email"] {
+  inline-size: calc(100% - 2.126rem);
+  padding: 1rem;
+  border: 2px solid var(--color-7);
+  background: transparent;
+  border-radius: 0.5rem;
+  margin-block-end: 1rem;
+  cursor: pointer;
   outline: none;
-  border: 0;
+}
+
+.content3 .formSubscription-b input[type="submit"] {
+  inline-size: 100%;
+  background: var(--color-8);
+  block-size: 3.125rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: var(--color-1);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.content3 .formSubscription-b input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
+  color: var(--color-1);
+  font-size: 1rem;
+}
+
+/*-------- NEMIUM C ----------*/
+
+.content3 .h3Nemium-b {
+  box-shadow: 0 0.25rem var(--color-4);
+}
+
+.content3 .pNemium-b {
+  color: var(--color-7);
+}
+
+.content3 .liNemium-b {
+  color: var(--color-7);
+}
+
+.content3 .liNemium-b::marker {
+  color: var(--colorBack-r1);
+}
+
+/*-------- NEMIUM D ----------*/
+
+.contentMain-d .content3 ul li::marker {
+  color: var(--color-8);
+}
+
+.contentMain-d .content3 .buttonScroll {
+  background: var(--color-10);
+}
+
+.contentMain-d .content3 .buttonScroll:hover {
+  background: var(--color-8);
+}
+
+.contentMain-d .content3 .formSubscription input[type="submit"] {
+
+  background: var(--color-8);
+
 }
 
 /* ------------------------------------------------ */
 
 @media screen and (max-width:940px) {
-  .wrapperMain .content3 .input {
+  .content3 {
+    margin-block-end: 2.544375rem;
+  }
+  .content3 .input {
     display: block;
     inline-size: 20.5rem;
     margin: auto;
   }
-  .content3 input[type="text"], .content3 input[type="email"] {
-    margin: 0 auto 1rem 0;
-    inline-size: 18.5rem;
+  .content3 .formSubscription {
+    position: relative;
   }
-  .content3 input[type="submit"] {
+  .content3 .formSubscription input[type="text"], input[type="email"] {
+    display: block;
+    inline-size: calc(100% - 2.125rem);
+    margin-block-end: 1rem;
+  }
+  .content3 .formSubscription input[type="submit"] {
     position: absolute;
-    inset-inline-start: 66%;
-    inset-block-start: 0;
-    inline-size: 7.23875rem;
+    inset-block-start: 4.1rem;
+    inset-inline-start: calc(100% - 7.4375rem);
   }
-  /*-------- NEMIUM B ----------*/
-  .content3 .inputNemium-b input[type="text"],
-  .content3 .inputNemium-b input[type="email"] {
-    margin: 0 auto 1rem 0;
-    inline-size: 18.3rem;
-  }
-  .content3 .inputNemium-b input[type="submit"] {
-    inline-size: 100%;
-    inset-block-start: 4rem;
-  }
-}
-
-/*-------- NEMIUM B ----------*/
-
-.wrapperMain .content3 .h3Nemium-b {
-  box-shadow: 0 0.25rem var(--color-4);
-}
-
-.wrapperMain .content3 .pNemium-b {
-  color: var(--color-7);
-}
-
-.wrapperMain .content3 .liNemium-b {
-  color: var(--color-7);
-}
-
-.wrapperMain .content3 .liNemium-b::marker {
-  color: var(--colorBack-r1);
-}
-
-.wrapperMain .content3 .inputNemium-b {
-  display: block;
-  position: relative;
-}
-
-.inputNemium-b input[type="text"], .inputNemium-b input[type="email"] {
-  background: transparent;
-  inline-size: 95.5%;
-  border-radius: 0.5rem;
-  margin-block-end: 1.5rem;
-}
-
-.inputNemium-b input::-webkit-input-placeholder {
-  color: var(--color-1);
-}
-
-.inputNemium-b input[type="submit"] {
-  background: var(--color-8);
-  inline-size: 100%;
-  inset-inline-start: 0;
-  inset-block-start: 0rem;
-  border-radius: 0.5rem;
 }

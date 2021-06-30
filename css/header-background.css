@@ -25,4 +25,19 @@
       background-size: 10%;
       background-repeat: repeat;
     }
+    /*-------- NEMIUM C ----------*/
+    .backgroundHeader-dSecond {
+      position: relative;
+      background: linear-gradient(274.51deg, rgba(74, 0, 224, 0.6) 5%, rgba(142, 45, 226, 0.5) 130.61%);
+      block-size: 21.875rem;
+      z-index: 1;
+    }
+    .backgroundHeader-d {
+      position: absolute;
+      inset-inline-start: 0;
+      inset-inline-end: 0;
+      inset-block-start: 0;
+      block-size: 21.875rem;
+      background-image: url(../img/img-background-header-d.png);
+    }
   }
