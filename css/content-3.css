@@ -174,6 +174,9 @@
 .contentMain-d .content3 .buttonScroll:hover {
   background: var(--color-8);
 }
+.content3 .formSubscription input[type="text"], input[type="email"] {
+  outline: none;
+}
 
 .contentMain-d .content3 .formSubscription input[type="submit"] {
   background: var(--color-8);
