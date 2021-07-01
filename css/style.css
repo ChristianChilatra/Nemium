@@ -12,13 +12,20 @@
   --color-8: #5551FF;
   --color-9: #8E2DE2;
   --color-10: #ABAAF6;
+  --color-11: #232946;
+  --color-12: #D4939D;
   font-family: 'Roboto', sans-serif;
 }
 
 body {
   position: relative;
   margin: 0;
-  background: var(--colorWhite);
+}
+
+.body.e{
+  position: relative;
+  margin: 0;
+  background: var(--color-11);
 }
 
 @media screen and (min-width:900px) {

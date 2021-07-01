@@ -58,7 +58,10 @@
 .content3 .overfollImg h1 {
   display: inline-block;
 }
-
+.content3 .buttonScroll-conteiner{
+  inline-size: 3.5rem;
+  margin: auto;
+}
 .content3 .buttonScroll {
   inline-size: 1rem;
   block-size: 1rem;
@@ -67,8 +70,6 @@
   border: 0;
   cursor: pointer;
   margin: 1rem auto 2.5rem auto;
-  position: relative;
-  inset-inline-start: 50%;
 }
 
 .content3 .buttonScroll:hover {
@@ -132,6 +133,10 @@
   cursor: pointer;
 }
 
+.content3 .formSubscription-b input[type="text"], input[type="email"] {
+  color: var(--color-1);
+  font-size: 1.2rem;
+}
 .content3 .formSubscription-b input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
   color: var(--color-1);
   font-size: 1rem;
@@ -170,14 +175,51 @@
 }
 
 .contentMain-d .content3 .formSubscription input[type="submit"] {
-
   background: var(--color-8);
+}
 
+/*-------- NEMIUM E ----------*/
+
+.contentMain.e .wrapperMain.e .content3.e h2 {
+  color: var(--color-6);
+  font-size: 2.5rem;
+}
+
+.contentMain.e .wrapperMain.e .content3.e p {
+  color: var(--color-7);
+  font-size: 1.0625rem;
+}
+
+.wrapperMain.e .content3.e h3 {
+  color: var(--color-6);
+  font-size: 2rem;
+}
+
+.wrapperMain.e .content3.e li {
+  color: var(--color-7);
+  font-size: 1.0625rem;
+}
+
+.content3.e .buttonScroll:hover {
+  background: var(--color-12);
+}
+
+.content3.e .formSubscription-b input[type="text"], .content3.e .formSubscription-b input[type="email"] {
+  color: var(--color-7);
+  font-size: 1.2rem;
+}
+
+.content3.e .formSubscription-b input[type="submit"] {
+  background: var(--color-12);
+}
+
+.content3.e .formSubscription-b input[type="text"]::-webkit-input-placeholder, .content3.e .formSubscription-b input[type="email"]::-webkit-input-placeholder {
+  color: var(--color-7);
 }
 
 /* ------------------------------------------------ */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width: 940px) {
   .content3 {
     margin-block-end: 2.544375rem;
   }
@@ -193,6 +235,8 @@
     display: block;
     inline-size: calc(100% - 2.125rem);
     margin-block-end: 1rem;
+    outline: none;
+    font-size: 1.2rem;
   }
   .content3 .formSubscription input[type="submit"] {
     position: absolute;

@@ -105,19 +105,33 @@
     inset-block-end: 0;
     inline-size: 20%;
   }
-  .sideNav-d .wrapperNav details ol a li{
+
+  .sideNav-d .wrapperNav details ol a li {
     inline-size: 11.75rem;
     block-size: 1.25rem;
     padding: 0.625rem 0 0.625rem 0.625rem;
     margin: 0;
     user-select: none;
   }
+
   .sideNav-d .wrapperNav details ol a li:hover {
     background: var(--color-8);
     color: var(--color-6);
-
+    border-radius: 0.25rem;
   }
 
+  /*-------- NEMIUM E ----------*/
+
+  .sideNav.e {
+    inset-block-start: 0;
+  }
+
+  .sideNav.e a,
+  .sideNav.e li,
+  .sideNav.e details,
+  .sideNav.e h3 {
+    color: var(--color-6);
+  }
 
   /* ------------------------------------------------ */
 
@@ -151,5 +165,45 @@
     }
     .sideNav-c+hr {
       display: none;
+    }
+    /*-------- NEMIUM D ----------*/
+    .sideNav-d {
+      position: static;
+      margin: 1rem auto 2.5rem auto;
+      inline-size: auto;
+      padding: 0 1rem 0 1rem;
+    }
+    .sideNav-d .wrapperNav {
+      margin: auto;
+      inline-size: 100%;
+    }
+    .sideNav-d .wrapperNav .conteiner1 {
+      margin: auto auto 2.5rem auto;
+    }
+    .sideNav-d .wrapperNav ul li {
+      inline-size: auto;
+    }
+    .sideNav-d .wrapperNav ul {
+      margin: 1rem 0 0 0;
+    }
+    .sideNav-d .wrapperNav .conteiner2 {
+      display: block;
+    }
+    .sideNav-d .wrapperNav .conteiner2 ol li {
+      inline-size: auto;
+    }
+    /*-------- NEMIUM E ----------*/
+    .sideNav.e .wrapperNav .conteiner1 {
+      margin-block-end: 2.5rem;
+    }
+    .sideNav.e .wrapperNav .conteiner2 {
+      display: block;
+    }
+    .sideNav.e .wrapperNav .conteiner2 li {
+      padding: 0 0 1rem 2rem;
+      color: var(--color-7);
+    }
+    .sideNav.e .wrapperNav .conteiner2 a {
+      color: var(--color-7);
     }
   }

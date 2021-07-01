@@ -32,6 +32,16 @@ footer .iconRed-social {
   background: #000000;
 }
 
+/*-------- NEMIUM E ----------*/
+
+.footerNemium.e {
+  background: var(--color-12);
+}
+
+.footerNemium.e .endpage p {
+  color: var(--color-1);
+}
+
 @media screen and (max-width:940px) {
   footer {
     block-size: 10.875rem;

@@ -33,14 +33,58 @@
   padding: 4rem 0 0 0;
 }
 
+/*-------- NEMIUM E ----------*/
+
+.contentMain.e h1 {
+  color: var(--color-6);
+}
+
+.contentMain.e p {
+  color: var(--color-7);
+}
+
 @media screen and (max-width:940px) {
-  .contentMain {
-    position: static;
-    margin: 2.5rem auto auto auto;
-    padding: 0 1rem 0 1rem;
-    inline-size: auto;
-  }
+
   .wrapperMain h1 {
     font-size: 1.5rem;
+  }
+  .contentMain {
+    margin: 5rem auto auto auto;
+    position: relative;
+    inset-inline-start: 0;
+    inline-size: auto;
+    padding: 0 1rem 0 1rem;
+  }
+  /*-------- NEMIUM B ----------*/
+  .contentMain.b {
+    margin: 5rem auto auto auto;
+    position: relative;
+    inset-inline-start: 0;
+    inline-size: auto;
+    padding: 0 1rem 0 1rem;
+  }
+  /*-------- NEMIUM C ----------*/
+  .contentMain.c {
+    margin: 5rem auto auto auto;
+    position: relative;
+    inset-inline-start: 0;
+    inline-size: auto;
+    padding: 0 1rem 0 1rem;
+  }
+  /*-------- NEMIUM D ----------*/
+  .contentMain-d {
+    margin: auto;
+    position: relative;
+    inset-inline-start: 0;
+    inline-size: auto;
+    padding: 0 1rem 0 1rem;
+  }
+  /*-------- NEMIUM E ----------*/
+  .contentMain.e {
+    margin: auto;
+    position: relative;
+    inset-inline-start: 0;
+    inline-size: auto;
+    padding: 0 1rem 0 1rem;
   }
 }

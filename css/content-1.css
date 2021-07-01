@@ -75,10 +75,12 @@
   font-size: 1.5rem;
   color: var(--color-1)
 }
-.contentMain-d .wrapperMain .content1 p{
+
+.contentMain-d .wrapperMain .content1 p {
   text-align: center;
 }
-.contentMain-d .wrapperMain .content1 p b{
+
+.contentMain-d .wrapperMain .content1 p b {
   color: var(--color-9);
   font-weight: lighter;
 }
@@ -87,4 +89,47 @@
   margin-inline-start: 30%;
   box-shadow: -0.25rem 0 var(--color-8);
   font-size: 1.5rem;
+}
+
+/*-------- NEMIUM E ----------*/
+
+.contentMain.e .wrapperMain.e .content1.e h2 {
+  color: var(--color-6);
+  font-size: 2.5rem;
+}
+
+.contentMain.e .wrapperMain.e .content1.e h3 {
+  color: var(--color-6);
+  font-size: 2rem;
+}
+
+.contentMain.e .wrapperMain.e .content1.e p {
+  color: var(--color-7);
+  font-size: 1.0625rem;
+}
+
+.contentMain.e .wrapperMain.e .phrase {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: var(--color-12);
+}
+
+.contentMain.e .wrapperMain.e .phrase, blockquote, cite {
+  color: var(--color-1);
+}
+
+.wrapperMain.e .content1 h3 {
+  box-shadow: none;
+  font-size: 2rem;
+}
+
+@media screen and (max-width:940px) {
+  .contentMain-d .wrapperMain .content1 .phrase {
+    margin: auto;
+  }
+  /*-------- NEMIUM E ----------*/
+  .contentMain.e .wrapperMain .content1 img {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+  }
 }

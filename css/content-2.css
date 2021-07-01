@@ -106,3 +106,26 @@
   border: 8px solid var(--color-8);
   box-shadow: -10px 10px 0px var(--color-10);
 }
+
+/*-------- NEMIUM E ----------*/
+
+.contentMain.e .wrapperMain.e .content2.e h2 {
+  color: var(--color-6);
+  font-size: 2.5rem;
+}
+
+.contentMain.e .wrapperMain.e .content2.e p {
+  color: var(--color-7);
+  font-size: 1.0625rem;
+}
+
+.wrapperMain.e .content2.e h3 {
+  color: var(--color-6);
+  box-shadow: none;
+  font-size: 2rem;
+}
+
+.wrapperMain.e .content2.e pre {
+  background: none;
+  color: var(--color-6);
+}
