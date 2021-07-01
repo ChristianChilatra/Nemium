@@ -89,6 +89,7 @@
   border-radius: 5.625rem;
   cursor: pointer;
   margin-inline-end: 1rem;
+  outline: none;
 }
 
 .content3 .formSubscription input[type="submit"] {
@@ -235,7 +236,6 @@
     display: block;
     inline-size: calc(100% - 2.125rem);
     margin-block-end: 1rem;
-    outline: none;
     font-size: 1.2rem;
   }
   .content3 .formSubscription input[type="submit"] {
